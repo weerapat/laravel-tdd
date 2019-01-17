@@ -10,3 +10,5 @@ php:
 
 install:
   - composer install --prefer-dist
+
+script: vendor/bin/phpunit
